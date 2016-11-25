@@ -49,3 +49,18 @@ What you need to do:
 - Set what the LevelUp object has set as its "LevelManager". This is the LevelManager object. 
 
 This is a pretty basic set of things you will do with the LevelManager. Everything that your levels do is pretty much done in the LevelManager. As you can see, the levelUp script just calls the LevelManager. The RespawnPlayer function is in there if you want to give killing stuff your own go! I'm sure you can work it out ;) Otherwise there is another package for these blocks. 
+
+
+# Pause Menu
+This package contains:
+- Pause Menu object
+- Pause Menu Script
+
+What you need to do:
+- Copy the PauseMenu object into the level and make sure that it's in the right place.
+- Set the "MainMenu" variable on the "PauseMenu" object to whatever the name of your main menu is. This level needs to be added to the build menu
+- Make sure that everything coppied correctly and that there are no missing fields
+- Test the level to make sure all the different buttons work. 
+- Do it for every level you have (Don't do it on the main menu, or do... I've done it before a few times (Great place to put easter eggs actually ;) ))
+
+This is a pretty simple pause screen that will do all the basics and has the ability to be expanded and made to look much prettier. I'd say take this and run with it really. You can do loads with it. There's also a lot of things in here that you can use in other places like the "timeScale". Set that to 0.5 for a slowmo effect. Or to 2 for something really fast and dangerous. The sky is the limit!

@@ -79,3 +79,22 @@ What you need to do:
 - Have fun :)
 
 This script instantly kills the player and puts them back to the starting point of the level. You could change this by changing the LevelManager script and you could change it to make them lose health in the KillPlayer script. 
+
+
+# Main Menu
+This package contains:
+- MenuScript
+- MainMenu prefab containing;
+    Canvas
+    Event system
+
+What you need to do:
+- Put the MainMenu prefab on the screen and make sure it all fits on
+- Make sure all scripts are attached.
+- Check the buttons "OnClick" thing. Make sure that they're all wired up.
+- Set the "levelToLoad" string to be the first level of your game
+- Add the MainMenu scene to the top of the build settings list as you want it to be the first level to be loaded
+- Make any other menus like the pauseMenu have the MainMenu set to them
+- Change the title to whatever you want to call your game
+
+This script has some things you could add later, such as the "continue button". I have left instructions in the description to that variable about how to go about doing it. This part should be the quickest setup. You can also change what the buttons say, the font of the buttons and title, the look of the buttons. Do what you like and make it look good! 

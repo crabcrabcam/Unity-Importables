@@ -98,3 +98,17 @@ What you need to do:
 - Change the title to whatever you want to call your game
 
 This script has some things you could add later, such as the "continue button". I have left instructions in the description to that variable about how to go about doing it. This part should be the quickest setup. You can also change what the buttons say, the font of the buttons and title, the look of the buttons. Do what you like and make it look good! 
+
+
+# Top Down Movement (Prebuilt for racing)
+This package contains:
+- PlayerMovementTopDown script
+- Player prefab
+
+What you need to do:
+- Change the image on the player
+- Fine tune the settings on the player. It's set up for racing right now. 
+- Add the levelmanager code if needed. 
+
+This script might be classed as uncomplete, but it will work for a racing game and that's how it's designed. Move over the things from the platformer playermovement if you need to do an RPG like game or something. 
+To improve this you could add a timer or something to make it more racing like. Or you could make an RPG like suggested earlier. 

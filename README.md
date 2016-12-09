@@ -112,3 +112,18 @@ What you need to do:
 
 This script might be classed as uncomplete, but it will work for a racing game and that's how it's designed. Move over the things from the platformer playermovement if you need to do an RPG like game or something. 
 To improve this you could add a timer or something to make it more racing like. Or you could make an RPG like suggested earlier. 
+
+
+# Enemies Pack
+This package contains:
+- Enemies kill script (same as spikes one)
+- Enemy prefab
+- Enemy sprite that's awful
+
+What you need to do:
+- Change the image on the enemy
+- Make sure all scripts are attached. The enemy needs a Levelmanager
+- Set the enemies distance. 50 time at 1 speed = 1 block moved, then turn and go back. It's linear
+- Set the level up and have fun :)
+
+To make this better you can add the ability to stomp enemies by changing the kill player, to kill enemies. Then add this to the box colider on top of the enemy. You'd want to make some enteties underneath the enemy. I'll make this package later, but you might be able to work it out. Give it a go, and there's some places on my GitHub with this on. Have fun :)

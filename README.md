@@ -64,3 +64,18 @@ What you need to do:
 - Do it for every level you have (Don't do it on the main menu, or do... I've done it before a few times (Great place to put easter eggs actually ;) ))
 
 This is a pretty simple pause screen that will do all the basics and has the ability to be expanded and made to look much prettier. I'd say take this and run with it really. You can do loads with it. There's also a lot of things in here that you can use in other places like the "timeScale". Set that to 0.5 for a slowmo effect. Or to 2 for something really fast and dangerous. The sky is the limit!
+
+
+# Danger Blocks
+This package contains:
+- Kill Player script
+- "S" for "Spikes" sprite
+- Spikes (Dangerblock) prefab
+
+What you need to do:
+- Put the spikes where you want them. 
+- Change the image to something a little better ;)
+- Make sure that all the scripts are attached to all the objects. KillPlayer script requires a LevelManager to be added.
+- Have fun :)
+
+This script instantly kills the player and puts them back to the starting point of the level. You could change this by changing the LevelManager script and you could change it to make them lose health in the KillPlayer script. 

@@ -127,3 +127,21 @@ What you need to do:
 - Set the level up and have fun :)
 
 To make this better you can add the ability to stomp enemies by changing the kill player, to kill enemies. Then add this to the box colider on top of the enemy. You'd want to make some enteties underneath the enemy. I'll make this package later, but you might be able to work it out. Give it a go, and there's some places on my GitHub with this on. Have fun :)
+
+
+# Force Movement
+This package contains:
+- Force movement script
+- Player prefab
+- Ground prefab
+
+What you need to do: 
+- Same as the "Platformer Movement" script. 
+- Change the sprites.
+  To do this you just need to put an image file in the Assets folder and select the "Player" object. Then you just need to drag the file to the "Sprite" section of the Player.
+  This will change the image. You then repeat this for the ground blocks. 
+- Create levels
+  Use these building blocks to make levels. You'll be able to make something playable with only these items. To do multiple levels you'll need some more things from this repo. (Level Manager Kit)
+- Change the speed and jump height to suit your game
+
+This is probably a better movement script than the other one for most things, but the old version is much faster and works well with mobile games. 
